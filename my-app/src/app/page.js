@@ -1,6 +1,6 @@
 import ProductCard from "./components/ProductCard";
 import products from "./lib/products";
-
+import Link from "next/link";
 export default function HomePage() {
   return (
     <main className="max-w-6xl mx-auto px-4 py-10">
